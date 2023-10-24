@@ -1,3 +1,6 @@
+#Jose Barrera Ramos
+#Ingenieria en Sistemas
+
 from operations import *
 
 
