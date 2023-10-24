@@ -12,6 +12,7 @@ def game():
               '\n2.Resta'
               '\n3.Multiplicacion'
               '\n4.Division'
+              '\n5.Potencia'
               '\n0.Exit')
         option = int(input('\nChoice an option:'))
 
@@ -33,6 +34,9 @@ def game():
 
         if option == 4:
             result = division(num_1, num_2)
+
+        if option == 5:
+            result = potencia(num_1, num_2)
 
         if result == answer:
             score += 1
