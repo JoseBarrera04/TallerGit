@@ -9,17 +9,22 @@ def game():
     while True:
         print('========Menu========'
               '\n1.Add'
+              '\n2.Resta'
               '\n0.Exit')
         option = int(input('\nChoice an option:'))
+
         if option == 0:
             break
 
-        num_1 = input('Enter first number:')
-        num_2 = input('Enter second number:')
+        num_1 = int(input('Enter first number:'))
+        num_2 = int(input('Enter second number:'))
         answer = int(input('Enter your answer:'))
 
         if option == 1:
             result = add(num_1, num_2)
+
+        if option == 2:
+            result = resta(num_1, num_2)
 
         if result == answer:
             score += 1
