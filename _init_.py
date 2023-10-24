@@ -1,5 +1,5 @@
 #Jose Barrera Ramos
-#Ingenieria en Sistemas
+#Ingenieria en Sistemas Javeriana
 
 from operations import *
 
